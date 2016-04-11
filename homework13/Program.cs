@@ -23,35 +23,13 @@ namespace homework13
         static List<string> forfilter;
         
         static void Main(string[] args)
-    {
+        {
+            ReadInput();
+        }
+
         public static void ReadInput()
         {
-            Readlines(InputFile, input);
+            ReaderWritter.Readlines(InputFile, input);
         }
-
-        private static void Readlines(string path, List<string> list)
-        {
-            using (StreamReader reader = new StreamReader(path))
-            {
-                string line;
-                while ((line = reader.ReadLine()) != null)
-                {
-                    list.Add(line);
-                }
-            }
-        }
-
-        private static void Writelines(string outpath, List<string> list)
-        {
-            using (StreamWriter writer = new StreamWriter(outpath))
-            {
-                foreach (string line in list)
-                {
-                    writer.WriteLine(line);
-                }
-           }
-        }
-
-
     }
 }

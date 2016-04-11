@@ -6,19 +6,22 @@ using System.Threading.Tasks;
 
 namespace homework13
 {
-    class Person
+    public class Person
     {
-        private const string InputFile = "Input.txt";
-        static List<string> input;
+        private List<string> input;
+        public Person(List<string> inputlist)
+        {
+            input = inputlist;
+        }
         
         
 
-        public static void CreatePerson()
+        public static CreatePerson()
         {
             input = new List<string>();
             Program.ReadInput();
             Random rand = new Random();
-            string NewPerson = new string(input[rand.Next(input.Capacity)]);
+            string NewPerson = input[rand.Next(input.Capacity)];
             
         }
     }
