@@ -24,12 +24,23 @@ namespace homework13
         
         static void Main(string[] args)
         {
-            ReadInput();
+            input = new List<string>();
+            black = new List<string>();
+            white = new List<string>();
+            forwritting = new HashSet<string>();
+            forfilter = new List<string>();
+
+            //string NewPerson = Person.CreatePerson();
+            PersonGeneretor.Generate();
+            Console.ReadLine();
         }
 
-        public static void ReadInput()
+        public static List<string> ReadInput()
         {
             ReaderWritter.Readlines(InputFile, input);
+            return input;
         }
+
+        
     }
 }

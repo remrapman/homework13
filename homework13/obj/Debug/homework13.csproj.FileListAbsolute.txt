@@ -5,3 +5,9 @@ D:\VS_projects\homework13\homework13\bin\Debug\homework13.exe
 D:\VS_projects\homework13\homework13\bin\Debug\homework13.pdb
 D:\VS_projects\homework13\homework13\obj\Debug\homework13.exe
 D:\VS_projects\homework13\homework13\obj\Debug\homework13.pdb
+E:\REM_Visual_Studio\homework13\homework13\bin\Debug\homework13.exe.config
+E:\REM_Visual_Studio\homework13\homework13\obj\Debug\homework13.exe
+E:\REM_Visual_Studio\homework13\homework13\obj\Debug\homework13.pdb
+E:\REM_Visual_Studio\homework13\homework13\obj\Debug\homework13.csprojResolveAssemblyReference.cache
+E:\REM_Visual_Studio\homework13\homework13\bin\Debug\homework13.exe
+E:\REM_Visual_Studio\homework13\homework13\bin\Debug\homework13.pdb

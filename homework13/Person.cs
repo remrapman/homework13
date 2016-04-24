@@ -13,16 +13,15 @@ namespace homework13
         {
             input = inputlist;
         }
-        
-        
 
-        public static CreatePerson()
+
+
+        public static string CreatePerson()
         {
-            input = new List<string>();
-            Program.ReadInput();
+            List<string> input = Program.ReadInput();
             Random rand = new Random();
-            string NewPerson = input[rand.Next(input.Capacity)];
-            
+            string NewPerson = input[rand.Next(input.Count)];
+            return NewPerson;
         }
     }
 }
